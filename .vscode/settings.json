@@ -1,0 +1,4 @@
+{
+  "markdownlint.configFile": "./.vscode/.markdownlint.jsonc",
+  "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false
+}
