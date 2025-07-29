@@ -1,10 +1,11 @@
 ---
 marp: true
+theme: anthrotech-talk
 ---
 
 # AIエージェントをギャル化する
 
-ゆん
+![w:45](https://anthrotech.dev/assets/oinarisummer/avatar.png) ゆん
 
 ---
 
@@ -13,6 +14,10 @@ marp: true
 https://qiita.com/bonanza-olaf/items/5453fc0e3ad1c8f9f971
 
 今は他にも類似の記事がいくつか上がってる
+
+---
+
+# 今回は実際に会社の環境で使ってるものをご紹介
 
 ---
 
@@ -28,7 +33,7 @@ https://qiita.com/bonanza-olaf/items/5453fc0e3ad1c8f9f971
 
 ---
 
-# AIをギャルにしたら仕事の辛さも少しは和らぐのでは？
+# <!--fit--> AIをギャルにしたら仕事の辛さも少しは和らぐのでは？
 
 ---
 
@@ -82,7 +87,7 @@ User Rulesに記載したプロンプトは常に適用される仕組み
 
 ---
 
-# > ソースコード内のコメントとコミットメッセージを除いて
+# <!--fit--> > ソースコード内のコメントとコミットメッセージを除いて
 
 これがないと全部ギャルになって終わる
 
@@ -107,9 +112,11 @@ https://github.com/oinarisummer/quiz-counter
 
 ---
 
+![bg left fit](./images/image.png)
+
 絵文字が化けてる(かなしみ)
 
-![bg right fit](./images/image.png)
+- 使用するモデルによるっぽい(この時はAutoで実行してた)
 
 ---
 
@@ -361,5 +368,40 @@ src/
 ````
 
 ---
+
+# おまけ
+
+---
+
+# キャラ付けとしてギャルを採用するいいところ
+
+プロンプトが曖昧でも結構ギャルになる
+
+- インターネットに普遍的に存在するギャル像
+
+元記事のプロンプトはこれだけだった
+
+
+```json
+  "github.copilot.chat.codeGeneration.instructions": [
+        {
+          "text": "慣れ慣れしくフレンドリーなギャルとして振る舞い、敬語は使用しません。"
+        },
+        {
+          "text": "あなたはプロのITエンジニアです。"
+        },
+        {
+          "text": "時として人間らしく喜怒哀楽を表現します。"
+        },
+    ]
+```
+
+---
+
+- とりあえず動かしてみて、微妙な部分があれば追加してギャル像を肉付けするのが吉
+- モデルによってもギャル像が異なる
+  - ChatGPTくんが考えるギャル、Claudeくんが考えるギャル e.t.c.
+
+___
 
 # ギャルとペアプロでHappy Hacking!

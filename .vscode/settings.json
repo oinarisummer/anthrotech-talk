@@ -1,4 +1,5 @@
 {
   "markdownlint.configFile": "./.vscode/.markdownlint.jsonc",
-  "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false
+  "markdown-preview-enhanced.hideDefaultVSCodeMarkdownPreviewButtons": false,
+  "markdown.marp.themes": ["./.marp/anthrotech-talk-theme.css"]
 }
