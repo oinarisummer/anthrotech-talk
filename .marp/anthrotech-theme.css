@@ -6,9 +6,9 @@
 @import "default";
 
 :root {
-  --color-1: #5d007c;
+  --color-1: #5f066b;
   --color-2: #38086b;
-  --color-3: #5f066b;
+  --color-3: #5d007c;
   --color-4: #0d00bb;
   --bg-image: url("https://anthrotech.dev/kits/banner.png");
   --bg-fallback: var(--color-1);
