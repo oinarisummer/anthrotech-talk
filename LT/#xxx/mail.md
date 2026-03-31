@@ -183,7 +183,10 @@ DNS解決可能な形式
 - 既存のメールヘッダを読む側はRFC5322の緩い構文も読める必要がある
 - つまり「生成はRFC5321、解釈はRFC5322」
 
-→メールアドレスのバリデーションはRFC5321に従う必要がある！！
+---
+<!-- _class: divider -->
+
+# メールアドレスのバリデーションはRFC5321に従う必要がある！！
 
 ---
 <!-- _class: divider -->
@@ -192,7 +195,15 @@ DNS解決可能な形式
 
 ---
 
-# HTML Standard
+# HTML Living Standard
+
+WHATWG(Web Hypertext Application Technology Working Group)が策定しているHTML標準
+
+WHATWG: Apple, Mozilla, Operaのメンバーで創立されたワーキンググループ。W3Cによる仕様策定はHTML5で廃止され、今はHTML Living StandardがHTMLの標準仕様。
+
+---
+
+# 4.10.5.1.5 Email state (type=email)
 
 > A valid email address is a string that matches the email production of the following ABNF, the character set for which is Unicode. This ABNF implements the extensions described in RFC 1123.
 
@@ -200,15 +211,14 @@ DNS解決可能な形式
 
 ---
 
-# HTML Standardさん…？
+# willful violation
 
 ![w:100%](images/html_standard_note.png)
 
 > この要件は、 RFC 5322 に対する意図的な違反です。RFC 5322 では、電子メール アドレスの構文が定義されていますが、これは同時に厳格すぎ（「@」文字の前）、曖昧すぎ（「@」文字の後）、緩すぎ（コメント、空白文字、引用符付き文字列をほとんどのユーザーには馴染みのない方法で許可している）であるため、ここでは実用的ではありません。
 
 ---
-
-# HTML Standardさん…！
+<!-- _class: image-only -->
 
 ![w:100%](images/html_standard_regex.png)
 
@@ -220,7 +230,7 @@ DNS解決可能な形式
 ---
 <!-- _class: divider -->
 
-# これを使え！
+# これを使う
 
 ---
 <!-- _class: divider -->
@@ -236,7 +246,7 @@ DNS解決可能な形式
   - https://www.rfc-editor.org/rfc/rfc5321
 - RFC5322
   - https://www.rfc-editor.org/rfc/rfc5322
-- HTML Standard
+- HTML Living Standard
   - https://html.spec.whatwg.org/multipage/input.html#email-state-(type=email)
 - RFC 5321/5322に沿ったEmail正規表現を書く
   - https://zenn.dev/riya_amemiya/articles/e0270cef8eed0f
