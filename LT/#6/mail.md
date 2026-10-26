@@ -1,7 +1,7 @@
 ---
 marp: true
 theme: anthrotech
-header: anthrotech-talk #x
+header: anthrotech-talk #6
 ---
 
 <!-- _class: cover -->
@@ -32,6 +32,11 @@ test+alias@example.com
 <!-- _class: divider -->
 
 # サービスに登録する時にエイリアスをつけると、漏洩した際に漏洩元が分かってうれしい(うれしくはない)
+
+---
+<!-- _class: divider -->
+
+# (簡単に元アドレスを復元できるのでセキュリティ的な意味はない)
 
 ---
 <!-- _class: divider -->
